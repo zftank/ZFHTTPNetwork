@@ -17,7 +17,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZFHTTPNetwork/Classes/*",
+  "source_files": "ZFHTTPNetwork/Classes/**/*.{h,m}",
+  "frameworks": "UIKit",
   "default_subspecs": [
     "YYManager",
     "HTTPCategory",

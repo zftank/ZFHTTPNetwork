@@ -27,36 +27,42 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'ZFHTTPNetwork/Classes/**/*.{h,m}'
+  s.source_files = 'ZFHTTPNetwork/Classes/**/*.{h,m}'
   
-  s.source_files = 'ZFHTTPNetwork/Classes/*'
+  #s.source_files = 'ZFHTTPNetwork/Classes/*'
   
-  #s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit'
   
   s.default_subspec = 'YYManager','HTTPCategory','HTTPCommon','HTTPManager','HTTPOperation','HTPhotoManager'
   
-  s.subspec 'YYManager' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/YYManager/*.{h,m}'
+  s.subspec 'YYManager' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/YYManager/*.{h,m}'
   end
   
-  s.subspec 'HTTPCategory' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/HTTPCategory/*.{h,m}'
+  s.subspec 'HTTPCategory' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPCategory/*.{h,m}'
   end
   
-  s.subspec 'HTTPCommon' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/HTTPCommon/*.{h,m}'
+  s.subspec 'HTTPCommon' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPCommon/*.{h,m}'
   end
   
-  s.subspec 'HTTPManager' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/HTTPManager/*.{h,m}'
+  s.subspec 'HTTPManager' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPManager/*.{h,m}'
   end
   
-  s.subspec 'HTTPOperation' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/HTTPOperation/*.{h,m}'
+  s.subspec 'HTTPOperation' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPOperation/*.{h,m}'
   end
   
-  s.subspec 'HTPhotoManager' do |spec|
-      spec.source_files = 'ZFHTTPNetwork/Classes/HTPhotoManager/*.{h,m}'
+  s.subspec 'HTPhotoManager' do |subspec|
+      
+      subspec.source_files = 'ZFHTTPNetwork/Classes/HTPhotoManager/*.{h,m}'
   end
   
 end

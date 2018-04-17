@@ -32,7 +32,6 @@
 		41DF36A7F6A0D7CF98AABF005388D0C6 /* BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E66E2B4D930BE414D8C8E41845E9B68 /* BaseOperation.m */; };
 		5016E6D7779B5C0EC9751B51730E053C /* HDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B95AA592B2D6780C94F3B71F7B13B855 /* HDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5038CF8B6C9D153C52A8364930F8B795 /* HBUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EECF6ECD4DA58302C7AA13EDDB19049 /* HBUploadOperation.m */; };
-		57924923804B240D29484A54F5F5868B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		5BB2DD4FFF9AB210AEC3DA7EF6CB7012 /* CheckPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = D95ACB39218039F5DD653A919A0DB356 /* CheckPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E9C0E4FEA68BFEA3A930CFB06CA1A8F /* NSModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345EC4FBE50645C5B4AC0DAA384C775 /* NSModelManager.m */; };
 		64CB13AD350F7B88A33244AFC6A0B37D /* HTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4464B75E22D2D79B7F3E1E8774D14A8 /* HTTPManager.m */; };
@@ -53,13 +52,14 @@
 		79A83D8B3C66B63A7B8BF5144D613140 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF298F2CECFDE6AC443F5D7E280A55EF /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B162B5305D2A06F8FB1FB4DC5B1EF04 /* ZFHTTPNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF139D28CECB1003BE581248DD7C180 /* ZFHTTPNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C43CC61F0AA60ABFCC89517C4351699 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D0F284F1538F2CD6917E0D00CC9CE /* UIImage+ForceDecode.m */; };
-		86344F7CEE29DD068B4EA9F4B46EBE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		86344F7CEE29DD068B4EA9F4B46EBE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		88489DFCC900BA8E691F6379E36D3CA3 /* UIImageView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A12B9EFD3560AF00D549713F692AD87 /* UIImageView+UIImage.m */; };
 		885A9549F6C66AEBE8C6FF08775CFB63 /* UIButton+UIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6425FD4A6F668B1FD8E13D94F82273D6 /* UIButton+UIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		886C9469D86C3007490BAC6E99827CF7 /* NSCrashFromMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C199C6A5172DF6F0F4471C426059115 /* NSCrashFromMethod.m */; };
 		886CE1A3FA4DED4E98E57EB39FC16C04 /* HBLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C2CFC5EB09D616C35AA7F04C59977 /* HBLoadManager.m */; };
 		9550A8C2D817267FFCF6EC00748DFABE /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1698F3A7EE6DF678B3D6533047608A3 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96908DA59CBDF4B10E47D3DD2CE8C86D /* NSDictionary+Resolve.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8824B87C5FE91A2D206408F6C70FD4 /* NSDictionary+Resolve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9698B7B0AF37A556147BC20279310CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		97CD4667EB74111EB6E4AC460562C0D2 /* UIButton+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C58112F5810535D850C05900228F2B /* UIButton+UIImage.m */; };
 		9E41A75CD85679621D9B8D1900BCF831 /* FilePhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A420916E2957E214360EA6CBC62D68E5 /* FilePhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E7A63055E0D9649ACBFF7A1743991AD /* HBLoadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 312ACCF8FC07069BACD3E5CF680FF438 /* HBLoadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,7 +84,6 @@
 		DBAD287DE2BBAD918246FFFBD3EFAE70 /* HBUploadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDF65655EFB261F9C075A7DA2A670A8 /* HBUploadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC1EED75B33FDAD327328A52C5205813 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF3C00746BAA5D8C6EF1C061B97514F /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE6731AC11DF508A3E34E554298798C5 /* FilePhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 352B097C98153C45C4B5F0CD0CD26DFF /* FilePhotoManager.m */; };
-		E641307B81EE74AE5DD874DF35D41CA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		E78EF0F1636A1AD184E0F2BE1E0457A9 /* HPMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DD6AEFBE2E82F3454332CC502FEC00 /* HPMessageManager.m */; };
 		EAA63AFD6885279D5AE96F59D9A030E3 /* UIListModelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 509B1F92CAE65A6BED91CEB83F6DC2CB /* UIListModelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC9C5E923E9F238870660CA28B883A9F /* NSObject+SafeSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 800F6CF62CCBFD668584B62CC092D211 /* NSObject+SafeSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -141,6 +140,7 @@
 		5EFA1ADC746301C34444C9EDF688866D /* HBLoadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBLoadOperation.m; sourceTree = "<group>"; };
 		63FDABDD137A5D1818F4449EA7F2AD6F /* Pods-ZFHTTPNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFHTTPNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6425FD4A6F668B1FD8E13D94F82273D6 /* UIButton+UIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+UIImage.h"; path = "ZFHTTPNetwork/Classes/UIButton+UIImage.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		670C3473295306871D74935051824BE5 /* Pods-ZFHTTPNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZFHTTPNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
 		6777CBC2C2EA68851E7F0554B0DB5637 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		6BC3C0E2097B75A628A813BBEEFFC23F /* ZFHTTPNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFHTTPNetwork-dummy.m"; sourceTree = "<group>"; };
@@ -182,7 +182,6 @@
 		AC7D0F284F1538F2CD6917E0D00CC9CE /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		B349AA24E3E425F108901660ECBA0955 /* NSString+Resolve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Resolve.h"; sourceTree = "<group>"; };
 		B560C49D951773F9727B947FFD7F3DA2 /* NSDictionary+Resolve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Resolve.m"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7DD6AEFBE2E82F3454332CC502FEC00 /* HPMessageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPMessageManager.m; sourceTree = "<group>"; };
 		B9404982C7B63F1C36810798829160D2 /* CheckPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CheckPattern.m; sourceTree = "<group>"; };
 		B95AA592B2D6780C94F3B71F7B13B855 /* HDFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFileManager.h; path = ZFHTTPNetwork/Classes/HDFileManager.h; sourceTree = "<group>"; };
@@ -194,7 +193,6 @@
 		CFF08A087321B4015BFC07A528D16AFE /* HTTPManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPManager.h; sourceTree = "<group>"; };
 		D018DCC941430427AA6425C4670185D7 /* HBDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBDataManager.m; sourceTree = "<group>"; };
 		D108719AA2BFDEECE6A6F27CBFF91426 /* ZFHTTPNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFHTTPNetwork-prefix.pch"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D95ACB39218039F5DD653A919A0DB356 /* CheckPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CheckPattern.h; sourceTree = "<group>"; };
 		D99632359C242D1E433B9E62DDE4DA61 /* HTTPCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPCommon.h; path = ZFHTTPNetwork/Classes/HTTPCommon.h; sourceTree = "<group>"; };
 		DCDF376B0027E151E5B85BF35B8DE328 /* UIButton+Network.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Network.m"; sourceTree = "<group>"; };
@@ -218,12 +216,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D94AA3C59123053B18264ED42DDD7117 /* Frameworks */ = {
+		BD340FCF99457D97328F0C9DC52946C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57924923804B240D29484A54F5F5868B /* Foundation.framework in Frameworks */,
-				E641307B81EE74AE5DD874DF35D41CA6 /* UIKit.framework in Frameworks */,
+				9698B7B0AF37A556147BC20279310CEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,23 +267,6 @@
 				AC2BD5A9F5867FB7C73FE9B3813BAE2D /* Pods-ZFHTTPNetwork_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4CCA17FB556BD66274F985CFDF7FF293 /* HTTPCommon */ = {
@@ -340,7 +320,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				17955BCD8AF7F822878998F266F95300 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F18CBF140B0971BBA98943F152C4FDCF /* Products */,
 				4041ADE267C4DB107CF85AF4E6FAC2C8 /* Targets Support Files */,
 			);
@@ -429,6 +409,14 @@
 			path = ZFHTTPNetwork/Classes/HTTPCategory;
 			sourceTree = "<group>";
 		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF757C35182CF2624B2CA37CA947BFA3 /* HTPhotoManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,6 +456,14 @@
 			);
 			name = YYManager;
 			path = ZFHTTPNetwork/Classes/YYManager;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F18CBF140B0971BBA98943F152C4FDCF /* Products */ = {
@@ -548,7 +544,7 @@
 			buildConfigurationList = 0E18D1C2A5C4A9AE024CFE0460B0778D /* Build configuration list for PBXNativeTarget "ZFHTTPNetwork" */;
 			buildPhases = (
 				FBDB378B8E2FF09B5C315C81C15BC300 /* Sources */,
-				D94AA3C59123053B18264ED42DDD7117 /* Frameworks */,
+				BD340FCF99457D97328F0C9DC52946C2 /* Frameworks */,
 				C2994257ABAF2C14CA66AEB41DE1F4AD /* Headers */,
 			);
 			buildRules = (

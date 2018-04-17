@@ -31,38 +31,4 @@ Pod::Spec.new do |s|
   
   #s.source_files = 'ZFHTTPNetwork/Classes/*'
   
-  s.frameworks = 'UIKit'
-  
-  s.default_subspec = 'YYManager','HTTPCategory','HTTPCommon','HTTPManager','HTTPOperation','HTPhotoManager'
-  
-  s.subspec 'YYManager' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/YYManager/*.{h,m}'
-  end
-  
-  s.subspec 'HTTPCategory' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPCategory/*.{h,m}'
-  end
-  
-  s.subspec 'HTTPCommon' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPCommon/*.{h,m}'
-  end
-  
-  s.subspec 'HTTPManager' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPManager/*.{h,m}'
-  end
-  
-  s.subspec 'HTTPOperation' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/HTTPOperation/*.{h,m}'
-  end
-  
-  s.subspec 'HTPhotoManager' do |subspec|
-      
-      subspec.source_files = 'ZFHTTPNetwork/Classes/HTPhotoManager/*.{h,m}'
-  end
-  
 end

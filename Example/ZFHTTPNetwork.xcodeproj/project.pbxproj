@@ -489,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94E07FF8DD0FA72637E00D72 /* Pods-ZFHTTPNetwork_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFHTTPNetwork/ZFHTTPNetwork-Prefix.pch";
@@ -505,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3DB89D69276A28B168E832F /* Pods-ZFHTTPNetwork_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFHTTPNetwork/ZFHTTPNetwork-Prefix.pch";

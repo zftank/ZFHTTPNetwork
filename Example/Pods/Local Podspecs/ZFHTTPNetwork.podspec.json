@@ -2,7 +2,7 @@
   "name": "ZFHTTPNetwork",
   "version": "1.0.0",
   "summary": "ZFHTTPNetwork",
-  "homepage": "https://github.com/zftank/ZFHTTPNetwork",
+  "homepage": "https://github.com/zftank/ZFHTTPNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

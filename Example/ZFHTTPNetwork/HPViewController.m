@@ -7,6 +7,7 @@
 //
 
 #import "HPViewController.h"
+#import "HTTPConnection.h"
 
 @interface HPViewController ()
 
@@ -19,6 +20,13 @@
     [super viewDidLoad];
 	
     self.view.backgroundColor = [UIColor redColor];
+    
+    
+    [HTTPLink requestData:self details:nil success:^(HTTPDetails *result) {
+        
+    } failure:^(HTTPDetails *result) {
+        
+    }];
 }
 
 @end

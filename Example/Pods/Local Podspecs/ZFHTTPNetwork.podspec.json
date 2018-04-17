@@ -17,7 +17,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZFHTTPNetwork/Classes/**/*.{h,m}",
+  "source_files": "ZFHTTPNetwork/Classes/*",
   "default_subspecs": [
     "YYManager",
     "HTTPCategory",

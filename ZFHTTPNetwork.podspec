@@ -22,12 +22,14 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangfeng' => 'zftank@163.com' }
-  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZFHTTPNetwork/Classes/**/*.{h,m}'
+#s.source_files = 'ZFHTTPNetwork/Classes/**/*.{h,m}'
+  
+  s.source_files = 'ZFHTTPNetwork/Classes/*'
   
   #s.frameworks = 'UIKit'
   

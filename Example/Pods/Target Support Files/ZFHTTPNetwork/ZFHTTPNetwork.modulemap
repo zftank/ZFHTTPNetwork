@@ -1,0 +1,6 @@
+framework module ZFHTTPNetwork {
+  umbrella header "ZFHTTPNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

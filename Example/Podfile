@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'ZFHTTPNetwork_Example' do
+  
+  pod 'ZFHTTPNetwork', :path => '../'
+
+end

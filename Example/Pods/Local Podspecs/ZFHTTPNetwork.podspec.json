@@ -1,0 +1,56 @@
+{
+  "name": "ZFHTTPNetwork",
+  "version": "1.0.0",
+  "summary": "ZFHTTPNetwork",
+  "homepage": "https://github.com/zhangfeng/ZFHTTPNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangfeng": "zftank@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangfeng/ZFHTTPNetwork.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZFHTTPNetwork/Classes/**/*.{h,m}",
+  "frameworks": "UIKit",
+  "default_subspecs": [
+    "YYManager",
+    "HTTPCategory",
+    "HTTPCommon",
+    "HTTPManager",
+    "HTTPOperation",
+    "HTPhotoManager"
+  ],
+  "subspecs": [
+    {
+      "name": "YYManager",
+      "source_files": "ZFHTTPNetwork/Classes/YYManager/*.{h,m}"
+    },
+    {
+      "name": "HTTPCategory",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPCategory/*.{h,m}"
+    },
+    {
+      "name": "HTTPCommon",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPCommon/*.{h,m}"
+    },
+    {
+      "name": "HTTPManager",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPManager/*.{h,m}"
+    },
+    {
+      "name": "HTTPOperation",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPOperation/*.{h,m}"
+    },
+    {
+      "name": "HTPhotoManager",
+      "source_files": "ZFHTTPNetwork/Classes/HTPhotoManager/*.{h,m}"
+    }
+  ]
+}

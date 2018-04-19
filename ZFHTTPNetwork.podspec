@@ -38,14 +38,12 @@ Pod::Spec.new do |s|
   
   s.subspec 'HTTPConnection' do |ssHTTPConnection|
       
-      ssHTTPConnection.source_files = 'ZFHTTPNetwork/Classes/HTTPConnection/**/*'
+      ssHTTPConnection.source_files = 'ZFHTTPNetwork/Classes/*.{h,m}'
       
-      ssHTTPConnection.public_header_files = 'ZFHTTPNetwork/Classes/HTTPConnection/**/*.h'
+      ssHTTPConnection.public_header_files = 'ZFHTTPNetwork/Classes/*.h'
       
       
-      ssHTTPConnection.dependency 'ZFHTTPNetwork/YYManager'
       
-      ssHTTPConnection.dependency 'ZFHTTPNetwork/HTPhotoManager'
       
   end
   
@@ -85,6 +83,8 @@ Pod::Spec.new do |s|
       
       
       ssHTPhotoManager.dependency 'ZFHTTPNetwork/HTTPCommon'
+      
+      ssHTPhotoManager.dependency 'ZFHTTPNetwork/HTTPConnection'
       
   end
   

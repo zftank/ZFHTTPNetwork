@@ -9,11 +9,10 @@ PODS:
     - ZFHTTPNetwork/YYManager (= 1.0.0)
   - ZFHTTPNetwork/HTPhotoManager (1.0.0):
     - ZFHTTPNetwork/HTTPCommon
+    - ZFHTTPNetwork/HTTPConnection
   - ZFHTTPNetwork/HTTPCategory (1.0.0)
   - ZFHTTPNetwork/HTTPCommon (1.0.0)
-  - ZFHTTPNetwork/HTTPConnection (1.0.0):
-    - ZFHTTPNetwork/HTPhotoManager
-    - ZFHTTPNetwork/YYManager
+  - ZFHTTPNetwork/HTTPConnection (1.0.0)
   - ZFHTTPNetwork/HTTPManager (1.0.0):
     - ZFHTTPNetwork/HTPhotoManager
     - ZFHTTPNetwork/HTTPConnection
@@ -31,7 +30,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZFHTTPNetwork: f057bc5abe679e779147d1bb518a99aad7c134f4
+  ZFHTTPNetwork: 78b0476ed5d54de7fcf724e2aa8416497c6c0930
 
 PODFILE CHECKSUM: 7fd0d7689b90dd7f214d42b21192394e413559e4
 

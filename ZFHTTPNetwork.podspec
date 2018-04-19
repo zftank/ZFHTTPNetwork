@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
 
   s.name             = 'ZFHTTPNetwork'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'ZFHTTPNetwork'
 
   s.homepage         = 'https://github.com/zftank/ZFHTTPNetwork.git'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangfeng' => 'zftank@163.com' }
-  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => '1.1.0' }
 
 
-  s.requires_arc = true
+  #s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
 
@@ -41,6 +41,8 @@ Pod::Spec.new do |s|
       ssHTTPConnection.source_files = 'ZFHTTPNetwork/Classes/**/*'
       
       ssHTTPConnection.public_header_files = 'ZFHTTPNetwork/Classes/**/*.h'
+      
+      ssHTTPConnection.requires_arc = true
       
   end
     

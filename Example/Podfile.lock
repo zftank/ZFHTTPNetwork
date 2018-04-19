@@ -1,7 +1,7 @@
 PODS:
-  - ZFHTTPNetwork (1.0.0):
-    - ZFHTTPNetwork/HTTPConnection (= 1.0.0)
-  - ZFHTTPNetwork/HTTPConnection (1.0.0)
+  - ZFHTTPNetwork (1.1.0):
+    - ZFHTTPNetwork/HTTPConnection (= 1.1.0)
+  - ZFHTTPNetwork/HTTPConnection (1.1.0)
 
 DEPENDENCIES:
   - ZFHTTPNetwork (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZFHTTPNetwork: dfab9763d0f3c499ecd3187f0015621a5ca2ef34
+  ZFHTTPNetwork: 0ec9a814d02c7590f500bea50888e27ee04998ec
 
 PODFILE CHECKSUM: 7fd0d7689b90dd7f214d42b21192394e413559e4
 

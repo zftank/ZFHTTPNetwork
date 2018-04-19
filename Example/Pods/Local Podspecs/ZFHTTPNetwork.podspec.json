@@ -18,77 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "default_subspecs": [
-    "HTTPConnection",
-    "YYManager",
-    "HTTPCategory",
-    "HTTPCommon",
-    "HTTPManager",
-    "HTTPOperation",
-    "HTPhotoManager"
-  ],
+  "default_subspecs": "HTTPConnection",
   "subspecs": [
     {
       "name": "HTTPConnection",
-      "source_files": "ZFHTTPNetwork/Classes/*.{h,m}",
-      "public_header_files": "ZFHTTPNetwork/Classes/*.h"
-    },
-    {
-      "name": "YYManager",
-      "source_files": "ZFHTTPNetwork/Classes/YYManager/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/YYManager/**/*.h"
-    },
-    {
-      "name": "HTTPCategory",
-      "source_files": "ZFHTTPNetwork/Classes/HTTPCategory/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCategory/**/*.h"
-    },
-    {
-      "name": "HTTPCommon",
-      "source_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*.h"
-    },
-    {
-      "name": "HTPhotoManager",
-      "source_files": "ZFHTTPNetwork/Classes/HTPhotoManager/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTPhotoManager/**/*.h",
-      "dependencies": {
-        "ZFHTTPNetwork/HTTPCommon": [
-
-        ],
-        "ZFHTTPNetwork/HTTPConnection": [
-
-        ]
-      }
-    },
-    {
-      "name": "HTTPOperation",
-      "source_files": "ZFHTTPNetwork/Classes/HTTPOperation/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPOperation/**/*.h",
-      "dependencies": {
-        "ZFHTTPNetwork/HTPhotoManager": [
-
-        ],
-        "ZFHTTPNetwork/HTTPConnection": [
-
-        ]
-      }
-    },
-    {
-      "name": "HTTPManager",
-      "source_files": "ZFHTTPNetwork/Classes/HTTPManager/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPManager/**/*.h",
-      "dependencies": {
-        "ZFHTTPNetwork/HTTPOperation": [
-
-        ],
-        "ZFHTTPNetwork/HTPhotoManager": [
-
-        ],
-        "ZFHTTPNetwork/HTTPConnection": [
-
-        ]
-      }
+      "source_files": "ZFHTTPNetwork/Classes/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/**/*.h"
     }
   ]
 }

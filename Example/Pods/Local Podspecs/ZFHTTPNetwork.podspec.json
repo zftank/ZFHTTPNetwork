@@ -31,7 +31,15 @@
     {
       "name": "HTTPConnection",
       "source_files": "ZFHTTPNetwork/Classes/HTTPConnection/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPConnection/**/*.h"
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPConnection/**/*.h",
+      "dependencies": {
+        "ZFHTTPNetwork/YYManager": [
+
+        ],
+        "ZFHTTPNetwork/HTPhotoManager": [
+
+        ]
+      }
     },
     {
       "name": "YYManager",
@@ -46,12 +54,7 @@
     {
       "name": "HTTPCommon",
       "source_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*",
-      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*.h",
-      "dependencies": {
-        "ZFHTTPNetwork/HTTPConnection": [
-
-        ]
-      }
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*.h"
     },
     {
       "name": "HTPhotoManager",

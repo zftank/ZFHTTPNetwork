@@ -30,13 +30,7 @@
 //
 //    NSArray *stackArray = [NSThread callStackReturnAddresses];
     
-    dispatch_async(dispatch_get_main_queue(),^{
-        
-        [[[UIAlertView alloc] initWithTitle:className message:message
-                                   delegate:nil
-                          cancelButtonTitle:@"确定"
-                          otherButtonTitles:nil,nil] show];
-    });
+    
     
 #endif
 

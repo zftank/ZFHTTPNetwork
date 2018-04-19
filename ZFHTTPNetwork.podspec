@@ -12,23 +12,109 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'ZFHTTPNetwork'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.homepage         = 'https://github.com/zftank/ZFHTTPNetwork.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangfeng' => 'zftank@163.com' }
-  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/zftank/ZFHTTPNetwork.git', :tag => '1.0.0' }
+
+
+  s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZFHTTPNetwork/Classes/**/*.{h,m}'
+
+  #s.source_files = 'ZFHTTPNetwork/Classes/**/*'
+  
+  #s.public_header_files = 'ZFHTTPNetwork/Classes/**/*.h'
   
   #s.source_files = 'ZFHTTPNetwork/Classes/*'
   
+  #s.dependency 'ZFHTTPNetwork'
+  
+  
+  s.default_subspec = 'HTTPConnection','YYManager','HTTPCategory','HTTPCommon','HTTPManager','HTTPOperation','HTPhotoManager'
+  
+  
+  s.subspec 'HTTPConnection' do |ssHTTPConnection|
+      
+      ssHTTPConnection.source_files = 'ZFHTTPNetwork/Classes/HTTPConnection/**/*'
+      
+      ssHTTPConnection.public_header_files = 'ZFHTTPNetwork/Classes/HTTPConnection/**/*.h'
+      
+  end
+  
+  
+  s.subspec 'YYManager' do |ssYYManager|
+      
+      ssYYManager.source_files = 'ZFHTTPNetwork/Classes/YYManager/**/*'
+      
+      ssYYManager.public_header_files = 'ZFHTTPNetwork/Classes/YYManager/**/*.h'
+      
+  end
+  
+  
+  s.subspec 'HTTPCategory' do |ssHTTPCategory|
+      
+      ssHTTPCategory.source_files = 'ZFHTTPNetwork/Classes/HTTPCategory/**/*'
+      
+      ssHTTPCategory.public_header_files = 'ZFHTTPNetwork/Classes/HTTPCategory/**/*.h'
+      
+  end
+  
+  
+  s.subspec 'HTTPCommon' do |ssHTTPCommon|
+      
+      ssHTTPCommon.source_files = 'ZFHTTPNetwork/Classes/HTTPCommon/**/*'
+      
+      ssHTTPCommon.public_header_files = 'ZFHTTPNetwork/Classes/HTTPCommon/**/*.h'
+      
+      
+      ssHTTPCommon.dependency 'ZFHTTPNetwork/HTTPConnection'
+      
+  end
+  
+  
+  s.subspec 'HTPhotoManager' do |ssHTPhotoManager|
+      
+      ssHTPhotoManager.source_files = 'ZFHTTPNetwork/Classes/HTPhotoManager/**/*'
+      
+      ssHTPhotoManager.public_header_files = 'ZFHTTPNetwork/Classes/HTPhotoManager/**/*.h'
+      
+      
+      ssHTPhotoManager.dependency 'ZFHTTPNetwork/HTTPCommon'
+      
+  end
+  
+  
+  s.subspec 'HTTPOperation' do |ssHTTPOperation|
+      
+      ssHTTPOperation.source_files = 'ZFHTTPNetwork/Classes/HTTPOperation/**/*'
+      
+      ssHTTPOperation.public_header_files = 'ZFHTTPNetwork/Classes/HTTPOperation/**/*.h'
+      
+      
+      ssHTTPOperation.dependency 'ZFHTTPNetwork/HTPhotoManager'
+      
+      ssHTTPOperation.dependency 'ZFHTTPNetwork/HTTPConnection'
+      
+  end
+  
+  
+  s.subspec 'HTTPManager' do |ssHTTPManager|
+      
+      ssHTTPManager.source_files = 'ZFHTTPNetwork/Classes/HTTPManager/**/*'
+      
+      ssHTTPManager.public_header_files = 'ZFHTTPNetwork/Classes/HTTPManager/**/*.h'
+      
+      
+      ssHTTPManager.dependency 'ZFHTTPNetwork/HTTPOperation'
+      
+      ssHTTPManager.dependency 'ZFHTTPNetwork/HTPhotoManager'
+      
+      ssHTTPManager.dependency 'ZFHTTPNetwork/HTTPConnection'
+      
+  end
+  
+    
 end

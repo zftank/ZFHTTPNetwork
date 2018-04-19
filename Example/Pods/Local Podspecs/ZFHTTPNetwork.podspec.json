@@ -14,8 +14,83 @@
     "git": "https://github.com/zftank/ZFHTTPNetwork.git",
     "tag": "1.0.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZFHTTPNetwork/Classes/**/*.{h,m}"
+  "default_subspecs": [
+    "HTTPConnection",
+    "YYManager",
+    "HTTPCategory",
+    "HTTPCommon",
+    "HTTPManager",
+    "HTTPOperation",
+    "HTPhotoManager"
+  ],
+  "subspecs": [
+    {
+      "name": "HTTPConnection",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPConnection/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPConnection/**/*.h"
+    },
+    {
+      "name": "YYManager",
+      "source_files": "ZFHTTPNetwork/Classes/YYManager/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/YYManager/**/*.h"
+    },
+    {
+      "name": "HTTPCategory",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPCategory/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCategory/**/*.h"
+    },
+    {
+      "name": "HTTPCommon",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPCommon/**/*.h",
+      "dependencies": {
+        "ZFHTTPNetwork/HTTPConnection": [
+
+        ]
+      }
+    },
+    {
+      "name": "HTPhotoManager",
+      "source_files": "ZFHTTPNetwork/Classes/HTPhotoManager/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTPhotoManager/**/*.h",
+      "dependencies": {
+        "ZFHTTPNetwork/HTTPCommon": [
+
+        ]
+      }
+    },
+    {
+      "name": "HTTPOperation",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPOperation/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPOperation/**/*.h",
+      "dependencies": {
+        "ZFHTTPNetwork/HTPhotoManager": [
+
+        ],
+        "ZFHTTPNetwork/HTTPConnection": [
+
+        ]
+      }
+    },
+    {
+      "name": "HTTPManager",
+      "source_files": "ZFHTTPNetwork/Classes/HTTPManager/**/*",
+      "public_header_files": "ZFHTTPNetwork/Classes/HTTPManager/**/*.h",
+      "dependencies": {
+        "ZFHTTPNetwork/HTTPOperation": [
+
+        ],
+        "ZFHTTPNetwork/HTPhotoManager": [
+
+        ],
+        "ZFHTTPNetwork/HTTPConnection": [
+
+        ]
+      }
+    }
+  ]
 }

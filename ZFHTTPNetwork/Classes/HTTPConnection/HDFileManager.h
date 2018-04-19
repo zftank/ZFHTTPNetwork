@@ -25,7 +25,6 @@ typedef NS_ENUM (NSInteger,Catalog) {
  
 ***/
 
-#import "YYModel.h"
 #import <Foundation/Foundation.h>
 
 @interface HDFileManager : NSObject
